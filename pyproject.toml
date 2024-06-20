@@ -10,19 +10,18 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.12"
 jupyter = "^1.0.0"
+matplotlib = "^3.8.2"
+pgmpy = "^0.1.25"
+graphviz = "^0.20.3"
 # pyro-ppl = "^1.8.6"
 # torch = "^2.1.2"
 # torchvision = "^0.16.2"
-matplotlib = "^3.8.2"
-# seaborn = "^0.13.1"
-# scipy = "^1.11.4"
-# graphviz = "^0.20.1"
-pgmpy = "^0.1.25"
-graphviz = "^0.20.3"
+
 
 [tool.poetry.group.dev.dependencies]
 python-lsp-server = "^1.9.0"
 pytest = "^7.4.4"
+
 
 [build-system]
 requires = ["poetry-core"]
