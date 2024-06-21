@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nordice-probai-2024"
+name = "nordic-probai-2024"
 version = "0.1.0"
 description = ""
 authors = ["Helge Langseth"]
